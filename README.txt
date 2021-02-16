@@ -12,7 +12,7 @@ License:)
 Do not use without specific permissions from Orr Burgel for any reason whatsoever, including commercial and non-commercial use.
 
 Back-End Dependencies:)
-Inside BackEnd\Dependencies Find And Install Chrome, Visual Code, xCode for Mac, And Visual Studio Or Go Find Them Online Yourself You Lazy Paranoid.
+Inside BackEnd\Dependencies Find And Install Chrome, Visual Code, xCode for Mac, libcef for Windows (Guide in the folder), And Visual Studio Or Go Find Them Online Yourself You Lazy Paranoid.
 
 Front-End Dependencies:)
 None

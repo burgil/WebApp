@@ -1,0 +1,14 @@
+This fail was bigger than the GitHub limits so I kindly compressed that for them :P
+
+How to use:
+Unzip libcef.zip to get libcef.dll (over 130mb)
+
+paste it in the following folders:
+
+...\WebApp\Chromium
+
+...\WebApp\BackEnd\VB.NET\packages\cef.redist.x64.87.1.13\CEF
+...\WebApp\BackEnd\VB.NET\packages\cef.redist.x86.87.1.13\CEF
+
+...\WebApp\BackEnd\CSharp\packages\cef.redist.x64.87.1.13\CEF
+...\WebApp\BackEnd\CSharp\packages\cef.redist.x86.87.1.13\CEF
