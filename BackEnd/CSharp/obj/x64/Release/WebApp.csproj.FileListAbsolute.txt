@@ -1,0 +1,14 @@
+D:\Projects\WebAppCSharp\BackEnd\obj\x64\Release\WebApp.Client.resources
+D:\Projects\WebAppCSharp\BackEnd\obj\x64\Release\WebApp.Resources.resources
+D:\Projects\WebAppCSharp\BackEnd\obj\x64\Release\WebApp.csproj.GenerateResource.cache
+D:\Projects\WebAppCSharp\BackEnd\obj\x64\Release\WebApp.csproj.CoreCompileInputs.cache
+D:\Projects\WebAppCSharp\BackEnd\obj\x64\Release\WebApp.exe
+D:\Projects\WebAppCSharp\BackEnd\obj\x64\Release\WebApp.pdb
+D:\Projects\WebAppCSharp\BackEnd\obj\x64\Release\WebApp.csprojAssemblyReference.cache
+D:\Projects\WebApp\BackEnd\CSharp\obj\x64\Release\WebApp.csprojAssemblyReference.cache
+D:\Projects\WebApp\BackEnd\CSharp\obj\x64\Release\WebApp.Client.resources
+D:\Projects\WebApp\BackEnd\CSharp\obj\x64\Release\WebApp.Resources.resources
+D:\Projects\WebApp\BackEnd\CSharp\obj\x64\Release\WebApp.csproj.GenerateResource.cache
+D:\Projects\WebApp\BackEnd\CSharp\obj\x64\Release\WebApp.csproj.CoreCompileInputs.cache
+D:\Projects\WebApp\BackEnd\CSharp\obj\x64\Release\WebAppCSharp.exe
+D:\Projects\WebApp\BackEnd\CSharp\obj\x64\Release\WebAppCSharp.pdb

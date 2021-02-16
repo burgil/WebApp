@@ -1,0 +1,1 @@
+START "" "C:\Users\%username%\AppData\Local\Programs\Microsoft VS Code\Code.exe" FrontEnd FrontEnd\ClientSide.js BackEnd\CSharp\ClientSide.cs FrontEnd\ServerSide.js BackEnd\CSharp\ServerSide.cs
