@@ -21,7 +21,7 @@ namespace WebApp
 
         private System.Reflection.Assembly CurrentDomain_AssemblyResolve(object sender, ResolveEventArgs args)
         {
-            return System.Reflection.Assembly.LoadFrom("Chromium/" + Generic.GetStringBetween("," + args.Name, ",", ",") + ".dll");
+            return System.Reflection.Assembly.LoadFrom(@"Chromium\" + Generic.GetStringBetween("," + args.Name, ",", ",") + ".dll");
         }
 
         private void Browser_LoadingStateChanged(object sender, LoadingStateChangedEventArgs e)
@@ -70,8 +70,8 @@ namespace WebApp
         {
             AppDomain.CurrentDomain.AssemblyResolve += CurrentDomain_AssemblyResolve;
             CheckForIllegalCrossThreadCalls = false;
-            if (File.Exists(@"Icon\favicon.ico"))
-                Icon = new Icon(@"Icon\favicon.ico");
+            if (File.Exists(@"FrontEnd\CrossIcon\favicon.ico"))
+                Icon = new Icon(@"FrontEnd\CrossIcon\favicon.ico");
             if (File.Exists("debug"))
                 Debug = true;
             InitBrowser();
