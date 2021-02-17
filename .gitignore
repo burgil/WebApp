@@ -1,1 +1,4 @@
 libcef.dll
+BackEnd\CSharp\obj
+BackEnd\Mono\obj
+BackEnd\VB.NET\obj
