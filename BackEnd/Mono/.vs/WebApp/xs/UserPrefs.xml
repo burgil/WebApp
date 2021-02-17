@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{28ABFBF1-56CB-4850-B99B-3B28C9E9A50D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
     <Files>
-      <File FileName="ViewController.cs" Line="29" Column="1" />
-      <File FileName="Main.cs" />
+      <File FileName="ViewController.cs" Line="13" Column="1" />
+      <File FileName="Main.cs" Line="10" Column="1" />
+      <File FileName="WKWebViewDelegate.cs" Line="20" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebApp" expanded="True">
             <Node name="WebApp" expanded="True">
-              <Node name="ViewController.cs" expanded="True" selected="True" />
+              <Node name="ViewController.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="Test1" HideGettingStarted="True" />
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="Test1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

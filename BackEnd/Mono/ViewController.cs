@@ -7,23 +7,25 @@ namespace WebApp
 {
     public partial class ViewController : NSViewController
     {
+        static NSView currentView;
         public ViewController(IntPtr handle) : base(handle)
         {
+
         }
 
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
+            currentView = View;
             // Do any additional setup after loading the view.
             WebAppBrowser.Configuration.Preferences.SetValueForKey(NSObject.FromObject(true), new NSString("developerExtrasEnabled"));
             NSUrl url = new NSUrl("file://"+System.IO.Path.GetFullPath("../../../FrontEnd/index.html"));//new NSUrl("https://www.apple.com");
             WebAppBrowser.LoadFileUrl(url, url);
+            WebAppBrowser.NavigationDelegate = new WKWebViewDelegate();
         }
 
         public override void ViewDidAppear()
-        {
-            View.Window.Title = "tester";
+        {            
             //This is insanely stupid:
             //View.Window.RepresentedFilename = new NSUrl(System.IO.Path.GetFullPath("../../../favicon.png"));
             //var icon = View.Window.StandardWindowButton(NSWindowButton.DocumentIconButton);
@@ -38,6 +40,11 @@ namespace WebApp
             //alert.InformativeText = file;
             //alert.RunModal();
             //}
+        }
+
+        public static void ChangeTitle(string title)
+        {
+            currentView.Window.Title = title;
         }
 
         public override NSObject RepresentedObject
