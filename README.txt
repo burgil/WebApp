@@ -12,7 +12,7 @@ License:)
 Do not use without specific permissions from Orr Burgel for any reason whatsoever, including commercial and non-commercial use.
 
 Back-End Dependencies:)
-Inside BackEnd\Dependencies Find And Install Chrome, Visual Code, xCode for Mac, libcef for Windows (Guide in the folder), And Visual Studio Or Go Find Them Online Yourself You Lazy Paranoid.
+Inside BackEnd\Dependencies Find And Install Chrome, Visual Code, xCode And Mono Framework for Mac, libcef for Windows (Guide in the folder), And Visual Studio Or Go Find Them Online Yourself You Lazy Paranoid.
 
 Front-End Dependencies:)
 None
@@ -25,9 +25,9 @@ Run Editor
 * Future: Visual Code Compiler\Errors
 
 How To Test?
-Create Generic "DEBUG" File To Open Inspector On-Load
-Run Builder
-Run WebApp
+1) Create Generic "DEBUG" File To Open Inspector On-Load
+2) Run Builder
+3) Run WebApp
 * Future: One File Tester (Monitor File Changes + Debugger + Inspector + View Parsed Server.JS)
 
 How To Publish?
@@ -45,3 +45,8 @@ Or Contact Orr ಠ_ಠ
 Security?
 Server.JS is not visible to clients from inside the app and from context menus
 * Future: Remote\Local Obfuscation Support And Merge Front-End Inside EXE And Hide Chromium And Show\On Demand For Admins Only
+
+Known Issue's:
+1) On MacOS, The Application Title will not sync beyond the initial load since TitleChanged event handler is nonexistence, Manual function that changes the title will be planned for future releases but currently impossible.
+    A) Windows will correctly sync the application title with the document.title parameter (<title></title> element)
+    B) On MacOS, It will only pull the title once when the app loads, But will not keep it synced if the title somehow changes ahm js

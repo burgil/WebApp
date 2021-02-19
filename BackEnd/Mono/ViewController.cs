@@ -2,6 +2,7 @@
 
 using AppKit;
 using Foundation;
+using WebKit;
 
 namespace WebApp
 {

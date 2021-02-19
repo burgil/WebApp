@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orrburgel/WebApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orrburgel/WebApp/issues"
+  },
+  "homepage": "https://github.com/orrburgel/WebApp#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
