@@ -50,3 +50,5 @@ Known Issue's:
 1) On MacOS, The Application Title will not sync beyond the initial load since TitleChanged event handler is nonexistence, Manual function that changes the title will be planned for future releases but currently impossible.
     A) Windows will correctly sync the application title with the document.title parameter (<title></title> element)
     B) On MacOS, It will only pull the title once when the app loads, But will not keep it synced if the title somehow changes ahm js
+    
+License: Provided "as is." So feel free to use it in any and all of your own projects. Use it as a "jumping off point" to extend, fix and included into anything else you want. (I only ask that, if you do find it useful and fix/add something - please consider adding back to the plugin with a pull request!)
